@@ -106,7 +106,7 @@ export default {
       // 处理数据格式
       for (let i = 0; i < 7; i++) {
         this.sourceData[i] = {
-          product: "3/" + (1 + i),
+          product: "8/" + (1 + i),
           新增用户: this.viewData.userAddNums[i],
           新增订单: this.viewData.userOrderAddNums[i],
           新增浏览量: this.viewData.pageViewAddNums[i],
@@ -226,7 +226,7 @@ export default {
 };
 </script>
 
-<style lang='less' scoped>
+<style lang="less" scoped>
 .homeContainer {
   height: 100%;
   display: flex;
