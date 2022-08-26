@@ -100,13 +100,13 @@ export default {
   async mounted() {
     // bug:控制台报错
     try {
-      // // 获取并更新七天的数据
+      // 获取并更新七天的数据
       this.viewData = await this.$api.home.getData();
 
       // 处理数据格式
       for (let i = 0; i < 7; i++) {
         this.sourceData[i] = {
-          product: "6/" + (1 + i),
+          product: "8/" + (1 + i),
           新增用户: this.viewData.userAddNums[i],
           新增订单: this.viewData.userOrderAddNums[i],
           新增浏览量: this.viewData.pageViewAddNums[i],
@@ -283,3 +283,4 @@ export default {
   }
 }
 </style>
+

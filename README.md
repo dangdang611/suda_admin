@@ -1,27 +1,16 @@
 # admin_m
 
-## Project setup
-```
-1.安装依赖包
-npm install
-```
+#### 物流系统的管理员端
 
-### Compiles and hot-reloads for development
-```
-2.启动服务器
-npm run serve
-```
+* 账号：CWCRootCWC
+* 密码：CWCRootCWC
 
-### Compiles and minifies for production
-```
-3.重新部署（打包成dist）
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 项目部署与上线
+
+* 打包：npm run build
+
+* 运行：npm run serve
+
+  

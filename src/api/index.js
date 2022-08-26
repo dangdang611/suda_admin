@@ -11,6 +11,7 @@ import home from "@/api/home"
 import order from "@/api/order"
 import post from "@/api/post"
 import address from '@/api/address'
+import server from "@/api/server"
 // 其他模块的接口……
 
 // 导出接口
@@ -23,5 +24,6 @@ export default {
     home,
     order,
     post,
-    address
+    address,
+    server
 }

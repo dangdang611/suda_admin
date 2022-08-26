@@ -2,7 +2,7 @@
  * 接口域名的管理
  */
 const base = {
-    basic: `http://192.168.31.201:8080/system`,
+    basic: `http://39.99.80.36:8082/system`,
     map: '/apis', //WebService API代理地址
 }
 

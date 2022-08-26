@@ -5,8 +5,20 @@
 </template>
 
 <script>
+import Cookies from "js-cookie";
 export default {
   name: "App",
+
+  async mounted() {
+    let result = await this.$api.server.login();
+
+    // 创建一个有效时间为1天的cookie来存储token
+    Cookies.set("rootTaken", result.rootTaken, { expires: 1 });
+  },
+
+  async unmounted() {
+    await this.$api.server.logout();
+  },
 };
 </script>
 
